@@ -6,6 +6,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TicTacToe extends JFrame implements ActionListener {
+    public static void main(String[] args) {
+       TicTacToe t=new TicTacToe();
+    }
+
     public static int BOARD_SIZE=3;
 
     public static enum GameStatus{
